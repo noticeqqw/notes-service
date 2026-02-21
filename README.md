@@ -179,3 +179,7 @@ src/main/java/noticeqqw/project/main/
 | `SPRING_DATASOURCE_PASSWORD` | Пароль БД | `notes_pass` |
 | `JWT_SECRET` | Секретный ключ для подписи токенов | — |
 | `JWT_EXPIRATION` | Время жизни токена в миллисекундах | `86400000` (24ч) |
+
+## UI 
+
+![](ui.png)
