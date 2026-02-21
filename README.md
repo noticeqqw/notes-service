@@ -25,7 +25,7 @@ REST API сервис для управления заметками с JWT-ав
 
 ## Быстрый старт
 
-### Запуск через Docker (рекомендуется)
+### Запуск через Docker
 
 ```bash
 docker-compose up --build
@@ -33,20 +33,6 @@ docker-compose up --build
 
 Приложение будет доступно на `http://localhost:8080`.
 PostgreSQL будет доступен на `localhost:5432`.
-
-### Запуск локально
-
-1. Запустить базу данных:
-
-```bash
-docker-compose up postgres -d
-```
-
-2. Запустить приложение:
-
-```bash
-./mvnw spring-boot:run
-```
 
 ## API
 
